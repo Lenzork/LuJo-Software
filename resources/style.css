@@ -28,6 +28,7 @@ body {
     border-radius: 25px;
     padding: 10px;
     transition-duration: 1s;
+    display: none;
 }
 
 .shop-item:hover {
@@ -56,4 +57,22 @@ body {
     /*border: 2px solid white;*/
     display: flex;
 
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(43, 43, 43, 0.658);
+    margin: 25px;
+    padding: 5px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer img {
+    padding-left: 10px;
+    padding-right: 10px;
 }
